@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.nav-container{
+    position:absolute;
+    top:0;
+    left:0;
+    width:25%;
+    margin-top: 50px;
+}
+
+.main{
+    positon:relative;
+}
+
+
+.nav-container ul li {
+    line-height: 2;
+    list-style-type: none;
+
+}
+
+.popular-article{
+    margin-left:10px;
+}
+
+.popular-articles{
+    text-align:left;
+    position:relative;
+    border:1px solid #DFDFDF;
+    transform: translate(-50%, 50%);
+    width:65vh;
+    top:75%;
+    left:50%;
+    box-shadow: -2px -2px 2px -1px rgba(0,0,0,0.6);
+}
